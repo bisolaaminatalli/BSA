@@ -48,6 +48,21 @@ font-weight: bold;
 }
 .first-one{
     position: relative;
-    top: 230px;
+    top: 220px;
     padding-left: 0px;
  }
+ @media screen  and (max-width: 480px){
+    .input{
+        width: 200px;
+        margin-top: 15px;
+      margin-right: 60px;
+      margin-left: 0px;
+   
+    }
+
+    .first-one{
+        margin-bottom: 255px;
+    }
+ }
+    
+ 
